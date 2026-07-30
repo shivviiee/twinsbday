@@ -1,0 +1,153 @@
+/* Removes default browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Whole page styling */
+body {
+    min-height: 100vh;
+    background-color: #fff0f5;
+    font-family: "Arial", sans-serif;
+    padding: 20px;
+    color: #333;
+}
+
+
+/* Main heading */
+h1 {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+
+/* Normal headings */
+h3 {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+
+/* Paragraphs */
+p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+
+/* First birthday message */
+.intro {
+    font-size: 28px;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+
+/* First image */
+.main-image {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+
+.main-image img {
+    width: 270px;
+    max-width: 90%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+/* Links */
+a {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    color: #d63384;
+    text-decoration: none;
+    margin: 20px;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Bottom memory images */
+.memory-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+
+.memory-images img {
+    width: 270px;
+    max-width: 90%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+/* PHONE VERSION */
+@media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+
+    h1 {
+        font-size: 26px;
+    }
+
+
+    h3 {
+        font-size: 19px;
+    }
+
+
+    p {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+
+    .intro {
+        font-size: 18px;
+    }
+
+
+    .main-image img {
+        width: 220px;
+    }
+
+
+    .memory-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .memory-images img {
+        width: 85%;
+    }
+
+
+    a {
+        font-size: 18px;
+    }
+
+}
